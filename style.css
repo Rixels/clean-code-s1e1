@@ -44,19 +44,19 @@
 } 
 .todo__list,
  .done__list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 .todo__list-line, 
 .done__list-line, 
 .done__title, 
 .todo__title {
-  list-style:none;
+  list-style: none;
 }
 .check,
 .input,
 .btn {
-  outline:none;
+  outline: none;
 }
 .btn {
   background: none;
@@ -159,14 +159,14 @@
 /* Edit Task */
 .done__input,
 .todo__input {
-  display:none
+  display: none
 }
 
 .todo__list-line_active [type="text"] {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .todo__list-line_active label {
-  display:none;
+  display: none;
 }
