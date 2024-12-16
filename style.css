@@ -5,9 +5,9 @@
   font-family: Lato, sans-serif;
 }
 .header__title {
-    font-size: 16px;
-    font-family: fantasy, cursive;
-    font-weight: normal;
+  font-size: 16px;
+  font-family: fantasy, cursive;
+  font-weight: normal;
 }
 .header {
   width: 500px;
@@ -23,9 +23,9 @@
 }
 
 @media (max-width:768px) {
-.header {
-  text-align: center;
-}
+  .header {
+    text-align: center;
+  }
 }
 .main {
   display: block;
