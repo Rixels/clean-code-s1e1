@@ -8,7 +8,7 @@
   type="text/css">
   <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
 </head>
-<body>
+<body class="page">
   <header class="header">
     <img class="header__img" src="./eisenhower-matrix.jpg">
     <a
@@ -22,8 +22,9 @@
       <form id="form-top" class="form">
         <label for="form__input" class="form__label">Add Item</label>
         <div class="form__task-row">
-          <input id="form__input" class="form__task-input" type="text">
-          <button class="form__btn-add" type="submit">Add</button>
+          <input id="form__input" 
+          class="form__task-input input" type="text">
+          <button class="form__btn-add btn" type="submit">Add</button>
         </div>
       </form>
     </section>
@@ -31,20 +32,20 @@
       <h2 class="todo__title">Todo</h2>
       <ul id="list-todo" class="todo__list">
         <li class="todo__list-line">
-          <input type="checkbox" class="todo__check">
+          <input type="checkbox" class="todo__check check">
           <label class="todo__label">Pay Bills</label>
-          <input type="text" class="todo__input">
-          <button class="todo__btn-edit edit">Edit</button>
-          <button class="todo__btn-del delete">
+          <input type="text" class="todo__input input">
+          <button class="todo__btn-edit btn edit">Edit</button>
+          <button class="todo__btn-del btn delete">
             <img class="todo__img" src="./remove.svg">
           </button>
         </li>
         <li class="todo__list-line todo__list-line_active">
-          <input type="checkbox" class="todo__check">
+          <input type="checkbox" class="todo__check check">
           <label class="todo__label">Go Shopping</label>
-          <input type="text" value="Go Shopping" class="todo__input">
-          <button class="todo__btn-edit edit">Save</button>
-          <button class="todo__btn-del delete">
+          <input type="text" value="Go Shopping" class="todo__input input">
+          <button class="todo__btn-edit btn edit">Save</button>
+          <button class="todo__btn-del btn delete">
             <img class="todo__img" src="./remove.svg">
           </button>
         </li>
@@ -56,11 +57,11 @@
         <li class="done__list-line">
           <input
           type="checkbox"
-          class="done__check done__check_active" checked>
+          class="done__check done__check_active check" checked>
           <label class="done__label">See the Doctor</label>
-          <input type="text" class="done__input">
-          <button class="done__btn-edit edit">Edit</button>
-          <button class="done__btn-del delete">
+          <input type="text" class="done__input input">
+          <button class="done__btn-edit btn edit">Edit</button>
+          <button class="done__btn-del btn delete">
             <img class="done__img" src="./remove.svg">
           </button>
         </li>
