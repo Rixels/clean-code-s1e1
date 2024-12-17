@@ -41,15 +41,15 @@
 }
 .form__task-row {
   display: flex;
-} 
+}
 .todo__list,
  .done__list {
   margin: 0;
   padding: 0px;
 }
-.todo__list-line, 
-.done__list-line, 
-.done__title, 
+.todo__list-line,
+.done__list-line,
+.done__title,
 .todo__title {
   list-style: none;
 }
@@ -101,7 +101,7 @@
 }
 
 /* New Task */
-.form__task-input {
+.form__label {
   display: block;
   margin: 0 0 20px;
 }
